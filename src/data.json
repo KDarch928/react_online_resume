@@ -1,0 +1,317 @@
+{
+    "contact":{
+        "name":"Kayle Drucker",
+        "email":"Kayle.Drucker@gmail.com",
+        "phone":"+1 (312) 488 9243",
+        "location":"Chicago, IL 60657",
+        "website":"https://kdarch928.github.io/",
+        "social":[
+            {
+                "name":"facebook",
+                "url":"https://www.facebook.com/kayle.drucker",
+                "className":"fab fa-facebook-f"
+            },
+            {
+                "name":"linkedin",
+                "url":"https://www.linkedin.com/in/kayledrucker/",
+                "className":"fab fa-linkedin-in"
+            },
+            {
+                "name":"github",
+                "url":"https://github.com/kdarch928",
+                "className":"fab fa-github"
+            }
+        ]
+    },
+    "main":{
+        "resume":"Kayle_Drucker_Resume.pdf",
+        "image":"Kayle_Drucker.jpg",
+        "icon":[
+            {
+                "marker":"fas fa-map-marker-alt"
+            },
+            {
+                "envelope":"far fa-envelope"
+            },
+            {
+                "phone":"fas fa-phone"
+            },
+            {
+                "up":"fa fa-chevron-up"
+            },
+            {
+                "plus":"far fa-plus-square"
+            }
+        ]
+    },
+    "about":{
+        "photo":"",
+        "bio":["As an internal IT Support Analyst for a ecommerce company, I collaborate with all team members and directors in understanding their departmental needs with technology and software, maintain internal systems, and build and maintain vendor relationship.", 
+            "I graduated with a degree in Housing and Development providing me with a unique design perspective towards technology. I have always had a knack for computers, but never explore the career field until taking a coding class in Java. This solidified my decision in going back to school for a Masters in Computer Science, and I’ve now worked in IT for two years. In continuing with my career growth, I am looking to further myself as a full stack developer and become immersed within the web development industry and set my path towards creating an emerging market combining both technology and architecture."]
+    },
+    "resume":{
+        "company":[
+            {
+                "name":"Gorilla Group",
+                "dates":"June 2016 - Present",
+                "url":"www.gorillagroup.com",
+                "location":"Chicago, IL",
+                "title":"Information Technology Support Analyst",
+                "description":["Cultivate relationships with vendors, maintaining communication and facilitating solutions to address concerns​.",
+                    "Facilitate the office move with the Operations team in a successful manner that did not affect company production.",
+                    "Maintain critical systems as part of the infrastructure team.",
+                    "Manage and Administer JIRA/Confluence/BitBucket add-ons, plugins, and extensions.",
+                    "Manage Linux, Windows, and Apple systems. This includes: OS builds, OS updates, Application installs, and testing.",
+                    "Perform firmware upgrades to computer networks.",
+                    "Helped support web and server markets using AWS and Google services/tools, for internal and external customers.",
+                    "Provide assistance with internal/external clients with implementing standards with workflows, schemes, and templates in JIRA/Confluence and BitBucket"
+                ]
+            },
+            {
+                "name":"Gorilla Group",
+                "dates":"January 2015 - June 2016",
+                "url":"www.gorillagroup.com",
+                "location":"Chicago, IL",
+                "title":"Information Technology Intern",
+                "description":["Defined/implemented procedures for tagging/tracking assets, identifying total asset and depreciation values.",
+                    "Identified department needs and requirements through cultivated relationships with all teams and managers.",
+                    "Developed configuration standards for new hire computers, allowing the ability to be productive quickly."
+                ]
+            },
+            {
+                "name":"CNA Insurance",
+                "dates":"June 2014 - September 2014",
+                "url":"www.cna.com",
+                "location":"Chicago, IL",
+                "title":"Information Technology Intern",
+                "description":["Improved the eDiscovery request form processes through gathering and analyzing business requirements transforming them into technical solutions.",
+                    "Developed business requirements with the eDiscovery and Forensics group for future lab enhancements.",
+                    "Delivered a project status presentation to senior leadership that summarized my project findings and future recommendations for the department."
+                ]
+            }
+        ],
+        "education":[
+            {
+                "name":"Northwestern University",
+                "location":"Evanston, IL",
+                "graduation":"May 2018",
+                "degree":"Certificate",
+                "schoolUrl":"https://sps.northwestern.edu/",
+                "focus":"Full Stack Developer",
+                "url":"https://bootcamp.northwestern.edu/coding/"
+
+            },
+            {
+                "name":"DePaul University",
+                "location":"Chicago, IL",
+                "graduation":"December 2016",
+                "degree":"Masters of Science",
+                "schoolUrl":"https://www.cdm.depaul.edu/Pages/default.aspx",
+                "focus":"Computer Science",
+                "url": "https://www.cdm.depaul.edu/academics/Pages/MSInComputerScience.aspx"
+            },
+            {
+                "name":"Arizona State University",
+                "location":"Tempe, AZ",
+                "graduation":"May 2008",
+                "degree":"Bachelor of Science",
+                "schoolUrl":"https://design.asu.edu/",
+                "focus":"Design, Housing and Urban Developement",
+                "url":"https://webapp4.asu.edu/programs/t5/majorinfo/ASU00/ARHCDBSD/undergrad/false"
+            }
+        ],
+        "quote":[
+            {
+                "description":"I can’t change the direction of the wind, but I can adjust my sails to always reach my destination.",
+                "author":"Jimmy Dean"
+
+            }
+        ],
+        "skills":[
+            {
+                "name":"Java",
+                "level":"40%"
+            },
+            {
+                "name":"Javascript",
+                "level":"60%"
+            },
+            {
+                "name":"Python",
+                "level":"40%"
+            },
+            {
+                "name":"C++",
+                "level":"20%"
+            },
+            {
+                "name":"Jira",
+                "level":"70%"
+            },
+            {
+                "name":"Confluence",
+                "level":"70%"
+            },
+            {
+                "name":"Stash",
+                "level":"70%"
+            },
+            {
+                "name":"Crowd",
+                "level":"60%"
+            },
+            {
+                "name":"G-Suite",
+                "level":"70%"
+            },
+            {
+                "name":"Windows",
+                "level":"60%"
+            },
+            {
+                "name":"CSS",
+                "level":"40%"
+            },
+            {
+                "name":"Bootstrap",
+                "level":"45%"
+            },
+            {
+                "name":"HTML",
+                "level":"40%"
+            },
+            {
+                "name":"Node.js",
+                "level":"45%"
+            },
+            {
+                "name":"Linux",
+                "level":"65%"
+            },
+            {
+                "name":"APIs",
+                "level":"30%"
+            },
+            {
+                "name":"JQuery",
+                "level":"45%"
+            },
+            {
+                "name":"AJAX",
+                "level":"30%"
+            },
+            {
+                "name":"Github",
+                "level":"70%"
+            },
+            {
+                "name":"GIT",
+                "level":"60%"
+            }
+        ]
+    },
+    "portfolio":{
+        "projects":[
+            {
+                "title":"Progression",
+                "category":"",
+                "image":"goals.jpg",
+                "url":"https://quiet-island-34853.herokuapp.com/"
+
+            },
+            {
+                "title":"Mongo Scraper: IT World News",
+                "category":"",
+                "image":"scrap.jpg",
+                "url":"https://safe-citadel-85825.herokuapp.com/"
+            },
+            {
+                "title":"Sherlock Homes",
+                "category":"",
+                "image":"home.jpg",
+                "url":"https://infinite-mesa-54869.herokuapp.com/"
+            },
+            {
+                "title":"Friend Finder",
+                "category":"",
+                "image":"locator.jpg",
+                "url":"https://young-mountain-34780.herokuapp.com/"
+            },
+            {
+                "title":"Eat-Da-Burger",
+                "category":"",
+                "image":"burger.jpeg",
+                "url":"https://floating-taiga-99864.herokuapp.com/"
+            },
+            {
+                "title":"Next Level Health",
+                "category":"",
+                "image":"cal-tracker.jpg",
+                "url":"https://kdarch928.github.io/nextlevelhealth/"
+            },
+            {
+                "title":"Train Tracker",
+                "category":"",
+                "image":"train.jpg",
+                "url":"https://kdarch928.github.io/week-7-firebase/"
+            },
+            {
+                "title":"Star Trek Trivia Game",
+                "category":"",
+                "image":"trivia.jpg",
+                "url":"https://kdarch928.github.io/TriviaGame/"
+            },
+            {
+                "title":"Psychic Game",
+                "category":"",
+                "image":"psychic.jpg",
+                "url":"https://kdarch928.github.io/Psychic-Game/"
+            },
+            {
+                "title":"Crystals Collector Game",
+                "category":"",
+                "image":"crystals.png",
+                "url":"https://kdarch928.github.io/week-4-game/"
+            },
+            {
+                "title":"Giphy Expression Search",
+                "category":"",
+                "image":"express.jpg",
+                "url":"https://kdarch928.github.io/giphy-api-search/"
+            },
+            {
+                "title":"Bamazon: Online Buying and Selling",
+                "category":"",
+                "image":"online-shopping.jpg",
+                "url":"https://github.com/KDarch928/bamazon"
+            },
+            {
+                "title":"Chicago Architectural Buildings Hangman Game",
+                "category":"",
+                "image":"chi-building.jpg",
+                "url":"https://github.com/KDarch928/week-11-js-constructors"
+            },
+            {
+                "title":"Liri Node Application",
+                "category":"",
+                "image":"liri.jpg",
+                "url":"https://github.com/KDarch928/liri-node-app"
+            }
+        ]
+    },
+    "professional":{
+        "organizations":[
+            {
+                "name":"Alpha Kappa Psi",
+                "image":"akpsi.jpg",
+                "url":"https://akpsi.org/"
+            },
+            {
+                "name":"Coder Dojo Chicago",
+                "image":"coderdojo.png",
+                "url":"http://coderdojochi.org/"
+            }
+        ]
+    }
+
+}
