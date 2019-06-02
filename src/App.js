@@ -5,6 +5,7 @@ import Intro from './components/Intro/index';
 import About from './components/About/index';
 import Exp from './pages/Experience/index';
 import Ed from './pages/Education/index';
+import Quote from './pages/Quote/index';
 
 // class App extends Component {
 //   render() {
@@ -39,6 +40,7 @@ const App = () => (
       <About />
       <Exp />
       <Ed />
+      <Quote />
     </main>
 
   </div>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Col, Row} from "../Grid";
+import Hover from "../HoverLink";
 import {List, ListID, ListItem} from "../List";
 
 //CSS style
@@ -56,9 +57,11 @@ export const EdCard = (props) => {
                     </h4>
                     <h6>{props.date}</h6>
                     <p style={description}>
-                        <a href={props.schoolUrl} style={schoolLink}>
+                        <Hover 
+                            url={props.schoolUrl}
+                        >
                             {props.school}
-                        </a>
+                        </Hover>
                     </p>
                     <div>
                         <i className={props.icon} style={info}></i>
