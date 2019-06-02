@@ -24,7 +24,6 @@ class Education extends Component {
 
         let len = Object.keys(Data.resume.education).length - 1;
 
-        console.log(len);
 
         return (
             
@@ -33,16 +32,6 @@ class Education extends Component {
                     <SectionHeader
                         title="Education"
                     />
-
-                    {/* <EdCard
-                        school={Data.resume.education[0].name}
-                        schoolUrl={Data.resume.education[0].schoolUrl}
-                        url={Data.resume.education[0].url}
-                        focus={Data.resume.education[0].focus}
-                        icon={Data.main.icon[0].marker}
-                        date={Data.resume.education[0].graduation}
-                        location={Data.resume.education[0].location}
-                    /> */}
                     {Data.resume.education.map((edu,index) => (
                         <EdCard
                             school={edu.name}
