@@ -25,14 +25,16 @@ const skillBox = {
     paddingBottom: '40px',
     paddingTop: '10px',
     transform: 'scale(1)',
-    transition: 'all 0.3s ease-in-out 0.2s'
+    transition: 'all 0.3s ease-in-out 0.2s',
+    background: 'lightgray'
 };
 
 const h4 = {
     fontWeight: '700',
-    marginBottom: '15',
+    marginTop: '5px',
+    marginBottom: '15px',
     marginLeft: '40px',
-    fontsize: '18px',
+    fontSize: '18px',
     float: 'left',
     textTransform: 'uppercase',
     color: '#fff'
@@ -59,7 +61,7 @@ class Skills extends Component {
 
         const colorBackground = {
 
-            background: `linear-gradient(to right, color ${percent}, color ${remainder})` 
+            background: `linear-gradient(to right, color ${percent}%, color ${remainder}%)` 
         };
 
         console.log(colorBackground);
@@ -74,7 +76,7 @@ class Skills extends Component {
                         <Col size="lg-6">
                             <div style={box} className="wow fadeInLeft" id="skill-display1">
                                 <div>
-                                    <div style={skillBox}>
+                                    <div style={{ paddingBottom: '40px', paddingTop: '10px', transform: 'scale(1)', transition: 'all 0.3s ease-in-out 0.2s', background: `linear-gradient(to right, #666666 ${percent}%, lightgray ${percent}% ${remainder}%)`}}>
                                         <div>
                                             <h4 style={h4}>
                                                 {Data.resume.skills[0].name}
