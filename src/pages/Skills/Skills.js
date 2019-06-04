@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Data from '../../data.json';
 import { Section, SectionFluid, SectionHeader} from "../../components/Section";
 import { Col, Row } from '../../components/Grid';
+import Skill from '../../components/SkillCard';
 
 
 //CSS styling
@@ -13,32 +14,7 @@ const skillSection = {
     background: '#eff5f5'
 };
 
-const box = {
-    padding: '40px',
-    marginBottom: '30px',
-    boxShadow: '0px 0px 30px rgba(73, 78, 92, 0.15)',
-    background: '#fff',
-    transition: '0.4s'
-};
 
-const skillBox = {
-    paddingBottom: '40px',
-    paddingTop: '10px',
-    transform: 'scale(1)',
-    transition: 'all 0.3s ease-in-out 0.2s',
-    background: 'lightgray'
-};
-
-const h4 = {
-    fontWeight: '700',
-    marginTop: '5px',
-    marginBottom: '15px',
-    marginLeft: '40px',
-    fontSize: '18px',
-    float: 'left',
-    textTransform: 'uppercase',
-    color: '#fff'
-};
 
 class Skills extends Component {
     
@@ -55,16 +31,8 @@ class Skills extends Component {
     render () {
 
         let percent = Data.resume.skills[0].level;
-        let remainder = 100 - percent;
+        let remainder = this.calculateRemainder(percent);
 
-        console.log(percent);
-
-        const colorBackground = {
-
-            background: `linear-gradient(to right, color ${percent}%, color ${remainder}%)` 
-        };
-
-        console.log(colorBackground);
 
         return (
             <div style={skillSection}>
@@ -73,8 +41,13 @@ class Skills extends Component {
                         title="Program Skills"
                     />
                     <Row>
-                        <Col size="lg-6">
-                            <div style={box} className="wow fadeInLeft" id="skill-display1">
+                        <Col size="lg-2"></Col>
+                        <Col size="lg-8">
+                            <Skill
+                                skillLevel={Data.resume.skills[4].level}
+                                skill={Data.resume.skills[4].name}
+                            />
+                            {/* <div style={box} className="wow fadeInLeft">
                                 <div>
                                     <div style={{ paddingBottom: '40px', paddingTop: '10px', transform: 'scale(1)', transition: 'all 0.3s ease-in-out 0.2s', background: `linear-gradient(to right, #666666 ${percent}%, lightgray ${percent}% ${remainder}%)`}}>
                                         <div>
@@ -84,8 +57,9 @@ class Skills extends Component {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </Col>
+                        <Col size="lg-2"></Col>
                     </Row>
                 </Section>
             </div>
