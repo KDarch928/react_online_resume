@@ -9,6 +9,10 @@ const box = {
     transition: '0.4s'
 };
 
+const pad = {
+    margin: '30px 0 0 0'
+};
+
 const h4 = {
     fontWeight: '700',
     marginTop: '5px',
@@ -59,11 +63,6 @@ class SkillCard extends Component {
         return remainder;
     }
 
-    convertPercentToPixel = (percent) => {
-        let pixel = (percent * 10) - 40;
-
-    }
-
 
     render () {
 
@@ -73,22 +72,22 @@ class SkillCard extends Component {
     
 
         return (
-            <div className="wow fadeInLeft">
-                <div>
-                    <div style={{ paddingBottom: '40px', paddingTop: '10px', transform: 'scale(1)', transition: 'all 0.3s ease-in-out 0.2s', background: `linear-gradient(to right, ${barColor.color} ${percent}%, lightgray ${percent}% ${remainder}%)`}}
-                        onMouseEnter={this.changeColor.bind(this)}
-                        onMouseLeave={this.resetColor.bind(this)}
-                    >
-                        <div>
-                            <h4 style={h4}>
-                                {this.props.skill}
-                            </h4>
-                            <div style={{display: `${barColor.display}`, color: '#fff', float: 'right', paddingRight: `${(remainder + 2)}%`, marginTop: '3px'}}>
-                                {percent}%
-                            </div>
+            <div style={pad} className="wow fadeInLeft">
+            
+                <div style={{ paddingBottom: '40px', paddingTop: '10px', transform: 'scale(1)', transition: 'all 0.3s ease-in-out 0.2s', background: `linear-gradient(to right, ${barColor.color} ${percent}%, lightgray ${percent}% ${remainder}%)`}}
+                    onMouseEnter={this.changeColor.bind(this)}
+                    onMouseLeave={this.resetColor.bind(this)}
+                >
+                    <div>
+                        <h4 style={h4}>
+                            {this.props.skill}
+                        </h4>
+                        <div style={{display: `${barColor.display}`, color: '#fff', float: 'right', paddingRight: `${(remainder + 2)}%`, marginTop: '3px'}}>
+                            {percent}%
                         </div>
                     </div>
                 </div>
+            
             </div>
         )
     }
