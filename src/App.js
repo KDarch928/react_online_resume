@@ -6,6 +6,7 @@ import About from './components/About/index';
 import Exp from './pages/Experience/index';
 import Ed from './pages/Education/index';
 import Quote from './pages/Quote/index';
+import Skills from './pages/Skills';
 
 // class App extends Component {
 //   render() {
@@ -41,6 +42,7 @@ const App = () => (
       <Exp />
       <Ed />
       <Quote />
+      <Skills />
     </main>
 
   </div>

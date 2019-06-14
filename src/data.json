@@ -130,83 +130,83 @@
         "skills":[
             {
                 "name":"Java",
-                "level":"40%"
+                "level":"40"
             },
             {
                 "name":"Javascript",
-                "level":"60%"
+                "level":"60"
             },
             {
                 "name":"Python",
-                "level":"40%"
+                "level":"40"
             },
             {
                 "name":"C++",
-                "level":"20%"
+                "level":"20"
             },
             {
                 "name":"Jira",
-                "level":"70%"
+                "level":"70"
             },
             {
                 "name":"Confluence",
-                "level":"70%"
+                "level":"70"
             },
             {
                 "name":"Stash",
-                "level":"70%"
+                "level":"70"
             },
             {
                 "name":"Crowd",
-                "level":"60%"
+                "level":"60"
             },
             {
                 "name":"G-Suite",
-                "level":"70%"
+                "level":"70"
             },
             {
                 "name":"Windows",
-                "level":"60%"
+                "level":"60"
             },
             {
                 "name":"CSS",
-                "level":"40%"
+                "level":"40"
             },
             {
                 "name":"Bootstrap",
-                "level":"45%"
+                "level":"45"
             },
             {
                 "name":"HTML",
-                "level":"40%"
+                "level":"40"
             },
             {
                 "name":"Node.js",
-                "level":"45%"
+                "level":"45"
             },
             {
                 "name":"Linux",
-                "level":"65%"
+                "level":"65"
             },
             {
                 "name":"APIs",
-                "level":"30%"
+                "level":"30"
             },
             {
                 "name":"JQuery",
-                "level":"45%"
+                "level":"45"
             },
             {
                 "name":"AJAX",
-                "level":"30%"
+                "level":"30"
             },
             {
                 "name":"Github",
-                "level":"70%"
+                "level":"70"
             },
             {
                 "name":"GIT",
-                "level":"60%"
+                "level":"60"
             }
         ]
     },

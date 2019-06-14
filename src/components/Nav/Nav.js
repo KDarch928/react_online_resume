@@ -24,4 +24,5 @@ const NavBar = () => (
     </header>
 );
 
+
 export default NavBar;
