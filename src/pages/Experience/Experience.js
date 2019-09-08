@@ -21,16 +21,6 @@ class Experience extends Component {
                     <SectionHeader
                         title="Experience"
                     />
-                    {/* <ExpCard
-                        company={Data.resume.company[0].name}
-                        location={Data.resume.company[0].location}
-                        url={Data.resume.company[0].url}
-                        dates={Data.resume.company[0].dates}
-                        title={Data.resume.company[0].title}
-                        num="1"
-                        des={Data.resume.company[0].description}
-                        icon={Data.main.icon[0].marker}
-                    /> */}
                     {Data.resume.company.map(datum => (
                         <ExpCard
                             company={datum.name}

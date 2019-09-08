@@ -7,6 +7,7 @@ import Exp from './pages/Experience/index';
 import Ed from './pages/Education/index';
 import Quote from './pages/Quote/index';
 import Skills from './pages/Skills';
+import Portfolio from './pages/Portfolio';
 
 // class App extends Component {
 //   render() {
@@ -43,6 +44,7 @@ const App = () => (
       <Ed />
       <Quote />
       <Skills />
+      <Portfolio />
     </main>
 
   </div>
