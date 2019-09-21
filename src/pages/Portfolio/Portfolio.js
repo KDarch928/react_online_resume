@@ -14,6 +14,19 @@ const expSection = {
 
 class Portfolio extends Component {
 
+    isMobile = () => {
+        var deviceType = "";
+        var userAgent = navigator.userAgent;
+
+        if (userAgent.match(/Android/i) || userAgent.match(/webOS/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPad/i) || userAgent.match(/BlackBerry/i) || userAgent.match(/Windows Phone/i)) {
+            deviceType = "Moblie";
+        } else {
+            deviceType = "Desktop";
+        }
+
+        return deviceType;
+    }
+
     render () {
         return (
             <div style={expSection}>
@@ -21,7 +34,10 @@ class Portfolio extends Component {
                     <SectionHeader
                         title="Portfolio"
                     />
-                    <FlipCard />
+                    <div>
+                        {this.isMobile()}
+                    </div>
+                    {/* <FlipCard /> */}
                 </Section>
 
             </div>
